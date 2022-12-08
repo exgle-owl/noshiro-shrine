@@ -1,6 +1,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 .page-header {
+  position: fixed;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.6);
   color: #a865a9;
   display: flex;
@@ -9,7 +11,7 @@
 }
 
 .page-header a {
-  color: #a865a9;
+  color: rgb(168, 102, 169);
   text-decoration: none;
 }
 
@@ -29,4 +31,29 @@
   display: flex;
   list-style-type: none;
   gap: 10px;
+}
+
+.about {
+  background-image: url('https://anime-chan.me/uploads/posts/2021-06/1624194077_atdan-_90352192_p0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.about .container {
+  align-items: center;
+  display: flex;
+  max-width: 900px;
+  margin-top: 60px;
+  padding: 60px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+
+.about .image {
+  max-width: 480px;
 }
