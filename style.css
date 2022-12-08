@@ -1,1 +1,32 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+.page-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #a865a9;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-header a {
+  color: #a865a9;
+  text-decoration: none;
+}
+
+.page-header a img {
+  width: 42px;
+}
+
+.page-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+}
+
+.page-navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
