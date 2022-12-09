@@ -62,6 +62,14 @@ body {
   max-width: 480px;
 }
 
+.more-button {
+  border-bottom: 3px solid rgb(168, 101, 169);
+  color: whitesmoke;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 4px 20px;
+}
+
 .gallery {
   align-items: center;
   display: flex;
